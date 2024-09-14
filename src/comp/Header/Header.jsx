@@ -25,7 +25,7 @@ const Header = () => {
     };
 
     return (
-        <header className="header">
+        <div className="header">
             <div className="left-icons" onClick={handleMenuClick}>
                 <div className="menu-icon">
                     <img src={assets.menu_icon} alt=''/>
@@ -46,7 +46,7 @@ const Header = () => {
                 </div>
                 {/* Иконка корзины */}
             </div>
-        </header>
+        </div>
     );
 };
 

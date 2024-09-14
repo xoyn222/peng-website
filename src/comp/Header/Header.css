@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: Arial, sans-serif;
-}
-
 .header {
     position: fixed;
     top: 0;
@@ -18,7 +14,6 @@ body {
     align-items: center;
     padding: 10px 20px;
     border-bottom: 1px solid #ddd;
-    z-index: 1000;
 }
 
 .header .logo {
